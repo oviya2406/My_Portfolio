@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Oviya Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+overflow:hidden;
+}
+
+#vanta-bg{
+width:100%;
+height:100vh;
+}
+
+.hero{
+
+height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+padding:20px;
+}
+
+.hero-card{
+
+background:rgba(255,255,255,0.08);
+
+backdrop-filter:blur(12px);
+
+border:1px solid rgba(255,255,255,0.15);
+
+padding:50px;
+
+border-radius:25px;
+
+text-align:center;
+
+max-width:700px;
+
+color:white;
+
+box-shadow:0 8px 32px rgba(0,0,0,0.3);
+
+animation:fadeIn 1.5s ease;
+}
+
+.hero-card h1{
+
+font-size:4rem;
+
+background:linear-gradient(
+90deg,
+#60a5fa,
+#8b5cf6,
+#ec4899
+);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+margin-bottom:15px;
+}
+
+.hero-card h2{
+
+font-weight:400;
+
+font-size:1.4rem;
+
+margin-bottom:20px;
+}
+
+.hero-card p{
+
+font-size:1rem;
+
+line-height:1.8;
+
+margin-bottom:30px;
+
+color:#e2e8f0;
+}
+
+.btn{
+
+display:inline-block;
+
+padding:15px 35px;
+
+background:linear-gradient(
+90deg,
+#3b82f6,
+#8b5cf6
+);
+
+border-radius:50px;
+
+text-decoration:none;
+
+color:white;
+
+font-weight:600;
+
+transition:0.3s;
+}
+
+.btn:hover{
+
+transform:translateY(-4px);
+
+box-shadow:0 10px 25px rgba(139,92,246,0.5);
+}
+
+.socials{
+
+margin-top:25px;
+
+display:flex;
+
+justify-content:center;
+
+gap:15px;
+
+flex-wrap:wrap;
+}
+
+.socials a{
+
+padding:10px 20px;
+
+border-radius:25px;
+
+text-decoration:none;
+
+color:white;
+
+border:1px solid rgba(255,255,255,0.3);
+
+transition:0.3s;
+}
+
+.socials a:hover{
+
+background:rgba(255,255,255,0.15);
+}
+
+@keyframes fadeIn{
+
+from{
+opacity:0;
+transform:translateY(40px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+@media(max-width:768px){
+
+.hero-card h1{
+font-size:2.8rem;
+}
+
+.hero-card{
+padding:30px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="vanta-bg">
+
+<div class="hero">
+
+<div class="hero-card">
+
+<h1>OVIYA</h1>
+
+<h2>AI Enthusiast | Data Science Learner | Web Developer</h2>
+
+<p>
+
+Passionate about building innovative solutions using
+Artificial Intelligence, Machine Learning, Data Analytics,
+Computer Vision, and Web Technologies.
+
+Completed multiple projects across AI, Data Science,
+Computer Vision, and Full Stack Development within
+a short learning journey.
+
+</p>
+
+<a href="about.html" class="btn">
+🚀 Start My Journey
+</a>
+
+<div class="socials">
+
+<a href="#">"https://github.com/oviya2406"</a>
+
+<a href="#">"https://www.linkedin.com/in/b-oviya-81a501414/"</a>
+
+<a href="#">"https://github.com/oviya2406/My_Portfolio/blob/main/resume.pdf"</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+<script>
+
+VANTA.NET({
+
+el:"#vanta-bg",
+
+mouseControls:true,
+
+touchControls:true,
+
+gyroControls:false,
+
+minHeight:200,
+
+minWidth:200,
+
+scale:1,
+
+scaleMobile:1,
+
+color:0x8b5cf6,
+
+backgroundColor:0x0f172a,
+
+points:12,
+
+maxDistance:22,
+
+spacing:18
+
+})
+
+</script>
+
+</body>
+</html>

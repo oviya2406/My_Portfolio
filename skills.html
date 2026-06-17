@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Skills | Oviya Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#0f172a,#111827,#1e1b4b);
+color:white;
+min-height:100vh;
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:25px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+position:sticky;
+top:0;
+z-index:100;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#8b5cf6;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:50px 20px;
+}
+
+.hero{
+text-align:center;
+margin-bottom:60px;
+}
+
+.hero h1{
+font-size:4rem;
+background:linear-gradient(90deg,#60a5fa,#8b5cf6,#ec4899);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:1.1rem;
+color:#cbd5e1;
+}
+
+.section-title{
+font-size:2rem;
+margin:40px 0 25px;
+color:#8b5cf6;
+}
+
+.skill-box{
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(10px);
+padding:30px;
+border-radius:20px;
+margin-bottom:50px;
+}
+
+.skill{
+margin-bottom:25px;
+}
+
+.skill-header{
+display:flex;
+justify-content:space-between;
+margin-bottom:8px;
+}
+
+.bar{
+height:12px;
+background:#1e293b;
+border-radius:20px;
+overflow:hidden;
+}
+
+.fill{
+height:100%;
+background:linear-gradient(90deg,#3b82f6,#8b5cf6);
+border-radius:20px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(10px);
+padding:25px;
+border-radius:20px;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 12px 25px rgba(139,92,246,.4);
+}
+
+.card h3{
+color:#60a5fa;
+margin-bottom:15px;
+}
+
+.card ul{
+padding-left:20px;
+line-height:1.8;
+}
+
+.btn{
+display:block;
+width:280px;
+margin:60px auto;
+text-align:center;
+padding:18px;
+border-radius:50px;
+text-decoration:none;
+color:white;
+font-weight:600;
+background:linear-gradient(90deg,#3b82f6,#8b5cf6);
+transition:.4s;
+}
+
+.btn:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 25px rgba(139,92,246,.5);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="projects.html">Projects</a>
+<a href="skills.html">Skills</a>
+<a href="certifications.html">Certifications</a>
+<a href="achievements.html">Achievements</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+<div class="container">
+
+<div class="hero">
+
+<h1>My Skills</h1>
+
+<p>
+Technologies, tools, and domains I have explored through my projects and learning journey.
+</p>
+
+</div>
+
+<h2 class="section-title">Technical Proficiency</h2>
+
+<div class="skill-box">
+
+<div class="skill">
+<div class="skill-header">
+<span>Python</span>
+<span>90%</span>
+</div>
+<div class="bar">
+<div class="fill" style="width:90%"></div>
+</div>
+</div>
+
+<div class="skill">
+<div class="skill-header">
+<span>HTML & CSS</span>
+<span>85%</span>
+</div>
+<div class="bar">
+<div class="fill" style="width:85%"></div>
+</div>
+</div>
+
+<div class="skill">
+<div class="skill-header">
+<span>JavaScript</span>
+<span>65%</span>
+</div>
+<div class="bar">
+<div class="fill" style="width:65%"></div>
+</div>
+</div>
+
+<div class="skill">
+<div class="skill-header">
+<span>Machine Learning</span>
+<span>75%</span>
+</div>
+<div class="bar">
+<div class="fill" style="width:75%"></div>
+</div>
+</div>
+
+<div class="skill">
+<div class="skill-header">
+<span>Data Science</span>
+<span>80%</span>
+</div>
+<div class="bar">
+<div class="fill" style="width:80%"></div>
+</div>
+</div>
+
+</div>
+
+<h2 class="section-title">Technology Stack</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>🤖 AI & Machine Learning</h3>
+
+<ul>
+<li>Artificial Intelligence</li>
+<li>Machine Learning</li>
+<li>Predictive Modelling</li>
+<li>Chatbots</li>
+<li>Generative AI</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>📊 Data Science</h3>
+
+<ul>
+<li>Data Cleaning</li>
+<li>EDA</li>
+<li>Pandas</li>
+<li>NumPy</li>
+<li>Data Visualization</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>👁 Computer Vision</h3>
+
+<ul>
+<li>OpenCV</li>
+<li>Face Recognition</li>
+<li>Object Detection</li>
+<li>Traffic Detection</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>🌐 Web Development</h3>
+
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>Streamlit</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>🛠 Tools</h3>
+
+<ul>
+<li>VS Code</li>
+<li>GitHub</li>
+<li>Jupyter Notebook</li>
+<li>Power BI</li>
+</ul>
+
+</div>
+</div>
+
+
+<div style="display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin-top:60px;">
+
+<a href="certifications.html" class="btn">
+📜 View Certifications
+</a>
+
+<a href="achievements.html" class="btn">
+🏆 View Achievements
+</a>
+
+
+
+</div>
+
+</body>
+</html>

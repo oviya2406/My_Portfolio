@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Projects</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+padding:40px;
+}
+
+.navbar{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:20px;
+margin-bottom:30px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+border-radius:15px;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+font-weight:600;
+transition:0.3s;
+}
+
+.navbar a:hover{
+color:#8b5cf6;
+}
+
+h1{
+text-align:center;
+font-size:3rem;
+margin-bottom:20px;
+}
+
+.category{
+margin-top:50px;
+}
+
+.category h2{
+color:#8b5cf6;
+margin-bottom:20px;
+}
+
+.projects-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+background:rgba(255,255,255,0.08);
+border-radius:20px;
+overflow:hidden;
+transition:0.4s;
+cursor:pointer;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 15px 30px rgba(139,92,246,0.4);
+}
+
+.card img{
+width:100%;
+height:180px;
+object-fit:cover;
+}
+
+.card-content{
+padding:20px;
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+.card p{
+font-size:14px;
+line-height:1.6;
+color:#cbd5e1;
+}
+
+.project-link{
+text-decoration:none;
+color:white;
+}
+
+.btn{
+display:block;
+width:250px;
+margin:50px auto;
+padding:15px;
+text-align:center;
+background:#8b5cf6;
+color:white;
+text-decoration:none;
+border-radius:30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="projects.html">Projects</a>
+<a href="skills.html">Skills</a>
+<a href="certifications.html">Certifications</a>
+<a href="achievements.html">Achievements</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+<h1>My Projects</h1>
+
+<!-- AI Projects -->
+
+<div class="category">
+
+<h2>🤖 AI & Machine Learning</h2>
+
+<div class="projects-grid">
+
+<a href="project-pages/ai-interview.html" class="project-link">
+<div class="card">
+<img src="portfolio images/ai-interview.jpg">
+<div class="card-content">
+<h3>AI Interview Prep Bot</h3>
+<p>AI-powered interview preparation assistant providing smart feedback.</p>
+</div>
+</div>
+</a>
+
+<a href="project-pages/ai-studymate.html" class="project-link">
+<div class="card">
+<img src="portfolio images/ai-studymate.jpg">
+<div class="card-content">
+<h3>AI StudyMate</h3>
+<p>Intelligent learning assistant for students.</p>
+</div>
+</div>
+</a>
+
+<a href="project-pages/health-ai.html" class="project-link">
+<div class="card">
+<img src="portfolio images/health-ai.jpg">
+<div class="card-content">
+<h3>HealthAI Care Website</h3>
+<p>Healthcare-focused AI platform for health insights.</p>
+</div>
+</div>
+</a>
+
+<a href="project-pages/offline-ai.html" class="project-link">
+<div class="card">
+<img src="portfolio images/offline-ai.jpg">
+<div class="card-content">
+<h3>Offline AI Assistant</h3>
+<p>Voice-enabled AI assistant working without internet.</p>
+</div>
+</div>
+</a>
+
+<a href="project-pages/predictive.html" class="project-link">
+<div class="card">
+<img src="portfolio images/predictive.jpg">
+<div class="card-content">
+<h3>Predictive Modelling</h3>
+<p>Machine learning model for future predictions.</p>
+</div>
+</div>
+</a>
+
+</div>
+
+</div>
+
+<!-- DATA SCIENCE -->
+
+<div class="category">
+
+<h2>📊 Data Science & Analytics</h2>
+
+<div class="projects-grid">
+
+<a href="project-pages/cleaning.html" class="project-link">
+<div class="card">
+<img src="portfolio images/cleaning.jpg">
+<div class="card-content">
+<h3>Data Cleaning Project</h3>
+<p>Data preprocessing and quality improvement.</p>
+</div>
+</div>
+</a>
+
+<a href="project-pages/eda.html" class="project-link">
+<div class="card">
+<img src="portfolio images/eda.jpg">
+<div class="card-content">
+<h3>EDA Project</h3>
+<p>Exploratory Data Analysis and visualization.</p>
+</div>
+</div>
+</a>
+
+<a href="project-pages/realworld.html" class="project-link">
+<div class="card">
+<img src="portfolio images/realworld.jpg">
+<div class="card-content">
+<h3>Real World Data Project</h3>
+<p>Business insights from real-world datasets.</p>
+</div>
+</div>
+</a>
+
+</div>
+
+</div>
+
+<!-- COMPUTER VISION -->
+
+<div class="category">
+
+<h2>👁️ Computer Vision</h2>
+
+<div class="projects-grid">
+
+<a href="project-pages/attendance.html" class="project-link">
+<div class="card">
+<img src="portfolio images/attendance.jpg">
+<div class="card-content">
+<h3>Face Attendance System</h3>
+<p>Automated attendance using facial recognition.</p>
+</div>
+</div>
+</a>
+
+<a href="project-pages/traffic.html" class="project-link">
+<div class="card">
+<img src="portfolio images/traffic.jpg">
+<div class="card-content">
+<h3>Traffic Detection Project</h3>
+<p>Vehicle detection using computer vision.</p>
+</div>
+</div>
+</a>
+
+</div>
+
+</div>
+
+<!-- WEB APPS -->
+
+<div class="category">
+
+<h2>🌐 Web Applications</h2>
+
+<div class="projects-grid">
+
+<a href="project-pages/weather.html" class="project-link">
+<div class="card">
+<img src="portfolio images/weather.jpg">
+<div class="card-content">
+<h3>Weather Forecast App</h3>
+<p>Real-time weather forecasting application.</p>
+</div>
+</div>
+</a>
+
+<a href="project-pages/chatbot.html" class="project-link">
+<div class="card">
+<img src="portfolio images/chatbot.jpg">
+<div class="card-content">
+<h3>College FAQ Chatbot</h3>
+<p>AI chatbot answering student queries.</p>
+</div>
+</div>
+</a>
+
+</div>
+
+</div>
+
+<a href="skills.html" class="btn">
+View My Skills →
+</a>
+
+</body>
+</html>

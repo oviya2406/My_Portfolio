@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>About Me</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#0f172a,#111827,#1e1b4b);
+color:white;
+min-height:100vh;
+overflow-x:hidden;
+}
+
+.navbar{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:25px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+font-weight:600;
+transition:0.3s;
+}
+
+.navbar a:hover{
+color:#8b5cf6;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:60px 20px;
+}
+
+.hero{
+text-align:center;
+margin-bottom:50px;
+animation:fadeIn 1.2s ease;
+}
+
+.hero h1{
+font-size:4rem;
+background:linear-gradient(90deg,#60a5fa,#8b5cf6,#ec4899);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:1.2rem;
+color:#cbd5e1;
+}
+
+.about-card{
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(12px);
+border:1px solid rgba(255,255,255,0.15);
+border-radius:25px;
+padding:35px;
+line-height:1.9;
+font-size:1.05rem;
+margin-bottom:40px;
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+margin-bottom:50px;
+}
+
+.stat-card{
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(10px);
+padding:30px;
+border-radius:20px;
+text-align:center;
+transition:.4s;
+}
+
+.stat-card:hover{
+transform:translateY(-10px);
+box-shadow:0 15px 30px rgba(139,92,246,0.4);
+}
+
+.stat-card h2{
+font-size:2.5rem;
+color:#8b5cf6;
+margin-bottom:10px;
+}
+
+.stat-card p{
+color:#cbd5e1;
+}
+
+.skills{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:15px;
+margin-bottom:50px;
+}
+
+.skill{
+padding:12px 25px;
+border-radius:30px;
+background:rgba(255,255,255,0.08);
+border:1px solid rgba(255,255,255,0.15);
+transition:.3s;
+}
+
+.skill:hover{
+background:#8b5cf6;
+transform:scale(1.08);
+}
+
+.timeline{
+background:rgba(255,255,255,0.08);
+padding:35px;
+border-radius:25px;
+margin-bottom:50px;
+}
+
+.timeline h2{
+margin-bottom:20px;
+text-align:center;
+color:#8b5cf6;
+}
+
+.timeline-item{
+padding:15px 0;
+border-left:3px solid #8b5cf6;
+padding-left:20px;
+margin-left:10px;
+}
+
+.timeline-item h3{
+color:#60a5fa;
+}
+
+.btn{
+display:block;
+width:280px;
+margin:auto;
+text-align:center;
+padding:18px;
+border-radius:50px;
+text-decoration:none;
+color:white;
+font-weight:600;
+background:linear-gradient(90deg,#3b82f6,#8b5cf6);
+transition:.4s;
+}
+
+.btn:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 25px rgba(139,92,246,.5);
+}
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="projects.html">Projects</a>
+<a href="skills.html">Skills</a>
+<a href="certifications.html">Certifications</a>
+<a href="achievements.html">Achievements</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+<div class="container">
+
+<div class="hero">
+
+<h1>About Me</h1>
+
+<p>AI Enthusiast • Data Science Learner • Web Developer</p>
+
+</div>
+
+<div class="about-card">
+
+<p>
+
+Hello! I'm <strong>Oviya</strong>, a passionate student who enjoys transforming ideas into real-world solutions using Artificial Intelligence, Machine Learning, Computer Vision, Data Analytics, and Web Technologies.
+
+Over a short period of time, I have built multiple projects ranging from AI assistants and chatbots to predictive models, computer vision applications, and data science solutions. My goal is to continuously learn, innovate, and create technology that makes a meaningful impact.
+
+</p>
+
+</div>
+
+<div class="stats">
+
+<div class="stat-card">
+<h2>12+</h2>
+<p>Projects Completed</p>
+</div>
+
+<div class="stat-card">
+<h2>5+</h2>
+<p>AI & ML Projects</p>
+</div>
+
+<div class="stat-card">
+<h2>3+</h2>
+<p>Data Science Projects</p>
+</div>
+
+<div class="stat-card">
+<h2>2+</h2>
+<p>Computer Vision Projects</p>
+</div>
+
+</div>
+
+<div class="skills">
+
+<div class="skill">Python</div>
+<div class="skill">Machine Learning</div>
+<div class="skill">AI</div>
+<div class="skill">Computer Vision</div>
+<div class="skill">OpenCV</div>
+<div class="skill">Streamlit</div>
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Data Science</div>
+
+</div>
+
+<div class="timeline">
+
+<h2>My Learning Journey</h2>
+
+<div class="timeline-item">
+<h3>Started with Python</h3>
+<p>Built a strong programming foundation.</p>
+</div>
+
+<div class="timeline-item">
+<h3>Explored Data Science</h3>
+<p>Worked on Data Cleaning, EDA and Analytics projects.</p>
+</div>
+
+<div class="timeline-item">
+<h3>Entered Machine Learning</h3>
+<p>Created predictive models using real-world datasets.</p>
+</div>
+
+<div class="timeline-item">
+<h3>Built AI Applications</h3>
+<p>Developed AI assistants, chatbots and intelligent systems.</p>
+</div>
+
+<div class="timeline-item">
+<h3>Computer Vision Projects</h3>
+<p>Created Face Attendance and Traffic Detection solutions.</p>
+</div>
+
+</div>
+
+<a href="projects.html" class="btn">
+🚀 Explore My Projects
+</a>
+
+</div>
+
+</body>
+</html>
